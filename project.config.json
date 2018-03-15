@@ -1,0 +1,70 @@
+{
+	"description": "项目配置文件。",
+	"setting": {
+		"urlCheck": true,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true
+	},
+	"compileType": "miniprogram",
+	"libVersion": "1.9.1",
+	"appid": "wx21dcf06ac4935682",
+	"projectname": "ofo",
+	"isGameTourist": false,
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 4,
+			"list": [
+				{
+					"id": -1,
+					"name": "scancode",
+					"pathName": "projects/scanCode/scanCode",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "billing",
+					"pathName": "projects/billing/billing",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "warn",
+					"pathName": "projects/warn/warn",
+					"query": ""
+				},
+				{
+					"id": 3,
+					"name": "my",
+					"pathName": "projects/my/my",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "wallet",
+					"pathName": "projects/wallet/wallet",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "charge",
+					"pathName": "projects/charge/charge",
+					"query": ""
+				}
+			]
+		}
+	}
+}

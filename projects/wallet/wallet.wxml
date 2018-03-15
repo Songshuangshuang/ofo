@@ -1,0 +1,22 @@
+<!--projects/wallet/wallet.wxml-->
+<view class="container">
+  <view class="money">
+    <view class="money-title">我的余额</view>
+    <view class="money-content">{{money}}</view>
+    <view class="money-desc"><text>余额说明</text></view>
+  </view>
+  <button bindtap='moveToCharge'>充值</button>
+  <view class="my-ticket same">
+    <text>我的用车券</text>
+    <text>0张></text>
+  </view>
+  <view class="my-yajin same">
+    <text>我的押金</text>
+    <text><text style='color:#b9dd08'>99元，押金退款</text><text>></text></text>
+  </view>
+  <view class="about same">
+    <text>关于ofo</text>
+    <text>></text>
+  </view>
+</view>
+

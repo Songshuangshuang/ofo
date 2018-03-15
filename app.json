@@ -1,0 +1,19 @@
+{
+  "pages" : [
+    "projects/index/index",
+    "projects/scanCode/scanCode",
+    "projects/billing/billing",
+    "projects/warn/warn",
+    "projects/my/my",
+    "projects/wallet/wallet",
+    "projects/charge/charge"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#b9dd08",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "ofo",
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": false
+  }
+}

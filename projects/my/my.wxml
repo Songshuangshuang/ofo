@@ -1,0 +1,16 @@
+<!--projects/my/my.wxml-->
+<view class = "container">
+  <view class = "userInfo">
+    <view class="user-img" wx:if="{{userInfo.avatarUrl}}">
+      <image src="{{userInfo.avatarUrl}}"></image>
+    </view>
+    <view class="user-name">{{userInfo.nickName}}</view>
+  </view>
+  <view class ="wallet"bindtap='moveToWallet' wx:if="{{userInfo.avatarUrl}}">
+    <text>我的钱包</text>
+    <text>></text>
+  
+  </view>
+  <button bindtap='bindtap' type="{{btnType}}">{{actionText}}</button>
+
+</view>
