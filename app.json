@@ -1,5 +1,5 @@
 {
-  "pages" : [
+  "pages": [
     "projects/index/index",
     "projects/scanCode/scanCode",
     "projects/billing/billing",
@@ -15,5 +15,6 @@
     "backgroundColor": "#eeeeee",
     "backgroundTextStyle": "light",
     "enablePullDownRefresh": false
-  }
+  },
+  "sitemapLocation": "sitemap.json"
 }

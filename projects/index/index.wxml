@@ -1,12 +1,17 @@
 <view class="container">
-  <map latitude='{{a}}' 
-    longitude='{{b}}'
-    id = "mapId"
-    controls = '{{controls}}'
-    show-location
-    scale='18
-    bindcontroltap='control'
-  ></map>
-  
-
+  <map latitude='{{a}}' longitude='{{b}}' id="mapId" controls='{{controls}}' show-location scale='18'
+    bindcontroltap='control'>
+  </map>
+  <cover-view style="display:flex;flex-directio:raw;position:absolute;top:70%;left:10%;">
+    <button bindtap='location'
+      style="width:50px;height:50px;border-radius:50px;background-image: url('/images/location.png');background-size:cover"></button>
+    <button bindtap='use'
+      style="width:90px;height:90px;border-radius:50px;background-image: url('/images/use.png');background-size:cover"></button>
+    <button bindtap='redirectToWarn'
+      style="width:50px;height:50px;border-radius:50px;background-image: url('/images/warn.png');background-size:cover"></button>
+    <button bindtap='redirectToMy'
+    style="width:50px;height:50px;border-radius:50px;background-image: url('/images/avatar.png');background-size:cover"></button>
+    <button bindtap='redirect'
+    style="width:35px;height:50px;border-radius:50px;background-image: url('/images/marker.png');background-size:cover"></button>
+  </cover-view>
 </view>
