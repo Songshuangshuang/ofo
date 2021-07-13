@@ -1,4 +1,4 @@
-// projects/scanCode/scanCode.js
+// packages/scanCode/scanCode.js
 Page({
 
   /**

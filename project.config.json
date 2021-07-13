@@ -56,37 +56,37 @@
         {
           "id": -1,
           "name": "scancode",
-          "pathName": "projects/scanCode/scanCode",
+          "pathName": "packages/scanCode/scanCode",
           "query": ""
         },
         {
           "id": -1,
           "name": "billing",
-          "pathName": "projects/billing/billing",
+          "pathName": "packages/billing/billing",
           "query": ""
         },
         {
           "id": -1,
           "name": "warn",
-          "pathName": "projects/warn/warn",
+          "pathName": "packages/warn/warn",
           "query": ""
         },
         {
           "id": 3,
           "name": "my",
-          "pathName": "projects/my/my",
+          "pathName": "packages/my/my",
           "query": ""
         },
         {
           "id": -1,
           "name": "wallet",
-          "pathName": "projects/wallet/wallet",
+          "pathName": "packages/wallet/wallet",
           "query": ""
         },
         {
           "id": -1,
           "name": "charge",
-          "pathName": "projects/charge/charge",
+          "pathName": "packages/charge/charge",
           "query": ""
         }
       ]

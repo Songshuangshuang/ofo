@@ -23,11 +23,11 @@ Page({
   moveToIndex : function () {
     if(this.timer) {
       wx.navigateTo({
-        url: '../index/index?flag=true',
-      })
+        url: '../../pages/index/index?flag=true',
+      }) 
     } else {
       wx.redirectTo({
-        url: '../index/index',
+        url: '../../pages/index/index',
       })
     }  
   },

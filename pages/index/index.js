@@ -33,13 +33,13 @@ Page({
   // 3
   redirectToWarn: function () {
     wx.redirectTo({
-      url: '../warn/warn',
+      url: '../../packages/warn/warn',
     })
   },
   // 4
   redirectToMy: function() {
     wx.redirectTo({
-      url: '../my/my',
+      url: '../../packages/my/my',
     })
   },
   // 5
@@ -78,17 +78,13 @@ Page({
         break;
       case 3:
         wx.redirectTo({
-          url: '../warn/warn',
+          url: '../../packages/warn/warn',
         })
       case 4:
         wx.redirectTo({
-          url: '../my/my',
+          url: '../packages/my/my',
         })
-
     }
-
-
-
   },
   onLoad: function (p) {
     this.flag = p.flag;

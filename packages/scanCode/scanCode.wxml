@@ -1,4 +1,4 @@
-<!--projects/scanCode/scanCode.wxml-->
+<!--packages/scanCode/scanCode.wxml-->
 <view class = "container">
   <view class = "pass-title">开锁密码</view>
   <view class = "pass-content">{{pass}}</view>

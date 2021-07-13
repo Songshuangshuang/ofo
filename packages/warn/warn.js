@@ -75,7 +75,7 @@ Page({
 
           } else {
             wx.redirectTo({
-              url: '../index/index',
+              url: '../../pages/index/index',
             })
           }
         }

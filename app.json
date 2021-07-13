@@ -1,12 +1,38 @@
 {
   "pages": [
-    "projects/index/index",
-    "projects/scanCode/scanCode",
-    "projects/billing/billing",
-    "projects/warn/warn",
-    "projects/my/my",
-    "projects/wallet/wallet",
-    "projects/charge/charge"
+    "pages/index/index"
+  ],
+  "subpackages": [{
+      "root": "packages/scanCode",
+      "pages": [
+        "scanCode"
+      ]
+    }, {
+      "root": "packages/my",
+      "pages": [
+        "my"
+      ]
+    }, {
+      "root": "packages/warn",
+      "pages": [
+        "warn"
+      ]
+    }, {
+      "root": "packages/wallet",
+      "pages": [
+        "wallet"
+      ]
+    }, {
+      "root": "packages/charge",
+      "pages": [
+        "charge"
+      ]
+    }, {
+      "root": "packages/billing",
+      "pages": [
+        "billing"
+      ]
+    }
   ],
   "window": {
     "navigationBarBackgroundColor": "#b9dd08",

@@ -1,0 +1,6 @@
+<!--components/button/button.wxml-->
+<view class="back-button-container">
+  <button open-type="launchApp" app-parameter="wechat" binderror="launchAppError" style="height: 50px">
+   返回视频
+  </button>
+</view>
